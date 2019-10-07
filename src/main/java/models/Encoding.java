@@ -28,5 +28,10 @@ public class Encoding {
         return this.sentence.length() > 1;
     }
 
+    public  String getUserInputtedString(){
+        return this.sentence;
+    }
+
+
 
 }

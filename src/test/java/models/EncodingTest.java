@@ -11,5 +11,11 @@ public class EncodingTest {
         assertTrue(encoding.isString());
     }
 
+    @Test
+    public void getUserInputtedString_getTheStringWhichUserEntered_Hello() {
+        Encoding encoding = new Encoding("Hello", 0);
+        assertEquals("Hello", encoding.getUserInputtedString());
+    }
+
 
 }
