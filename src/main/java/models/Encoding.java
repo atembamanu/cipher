@@ -32,6 +32,22 @@ public class Encoding {
         return this.sentence;
     }
 
+    public  String startEncryption(){
+        StringBuilder encrypted= new StringBuilder();
+        for(int i=0;i<sentence.length();i++) {
+            int c=sentence.charAt(i);
+            if(Character.isUpperCase(c)) {
+                c = c + (theKey % 26);
+                if( c> 'Z') c = c-26;
+            }
+            else if(Character.isLowerCase(c)) {
+                c = c + (theKey % 26);
+                if(c > 'z') c = c - 26;
+            }
+            encrypted.append((char) c);
+        }
+        return encrypted.toString();
+    }
 
 
 }
