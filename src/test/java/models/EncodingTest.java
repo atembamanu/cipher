@@ -17,5 +17,11 @@ public class EncodingTest {
         assertEquals("Hello", encoding.getUserInputtedString());
     }
 
+    @Test
+    public void startEncryption_convertUserStringToCipherTextBy20_BC() {
+        Encoding encoding = new Encoding("HI", 20);
+        assertEquals("BC", encoding.startEncryption());
+    }
+
 
 }
