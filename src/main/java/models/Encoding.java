@@ -25,7 +25,7 @@ public class Encoding {
     }
 
     public  boolean isString(){
-        return this.sentence.length() < 1;
+        return this.sentence.length() > 1;
     }
 
 
