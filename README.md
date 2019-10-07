@@ -12,16 +12,23 @@ Given a string of characters for example "THE QUICK BROWN FOX JUMPS OVER THE LAZ
 * [Contact](#contact)
 
 ## General info
+
 A user is given a list of options which they are allowed to choose from. If the user selects encryption, they are asked to enter the text to be encrypted and the value thy want the letters to be shifted with. Else, if they select decryption they they are required to either choose between the already encrypted text or enter their own encrypted text. They can exit the program when they select exit option. 
+
 ## Screenshots
+
 #####select options
+
 ![Example screenshot](./images/one.png)
 
 #####encryption
+
 ![Example screenshot](./images/two.png)
 
 #####decryption
+
 ![Example screenshot](./images/three.png)
+
 ## Technologies
 * java- jdk11
 * gradle
