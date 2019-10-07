@@ -28,4 +28,26 @@ public class Decoding {
         return this.sentence.length() > 1;
     }
 
+    public  String startDecryption(){
+
+        StringBuilder decrypted= new StringBuilder();
+        for(int i=0;i<sentence.length();i++)
+        {
+            int c=sentence.charAt(i);
+            if(Character.isUpperCase(c))
+            {
+                c=c-(theKey%26);
+                if(c<'A')
+                    c=c+26;
+            }
+            else if(Character.isLowerCase(c))
+            {
+                c=c-(theKey%26);
+                if(c<'a')
+                    c=c+26;
+            }
+            decrypted.append((char) c);
+        }
+        return decrypted.toString();
+    }
 }
