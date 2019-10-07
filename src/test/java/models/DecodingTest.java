@@ -11,4 +11,11 @@ public class DecodingTest {
         assertTrue(decoding.isString());
     }
 
+    @Test
+    public void startDecryption_convertCipherUserStringBy20_HI() {
+        Decoding decoding = new Decoding("BC", 20);
+        assertEquals("HI", decoding.startDecryption());
+
+    }
+
 }
