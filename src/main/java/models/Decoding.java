@@ -24,4 +24,8 @@ public class Decoding {
     public void setTheKey(int theKey) {
         this.theKey = theKey;
     }
+    public  boolean isString(){
+        return this.sentence.length() > 1;
+    }
+
 }
