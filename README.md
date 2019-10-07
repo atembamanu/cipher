@@ -65,3 +65,6 @@ credits:
 
 ## Contact
 Created by atembaemm07@gmail.com
+
+## License
+[MIT LICENCE](license)
