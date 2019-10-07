@@ -17,15 +17,15 @@ A user is given a list of options which they are allowed to choose from. If the 
 
 ## Screenshots
 
-#####select options
+select options
 
 ![Example screenshot](./images/one.png)
 
-#####encryption
+encryption
 
 ![Example screenshot](./images/two.png)
 
-#####decryption
+decryption
 
 ![Example screenshot](./images/three.png)
 
