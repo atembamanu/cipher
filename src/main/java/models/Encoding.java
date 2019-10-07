@@ -24,4 +24,9 @@ public class Encoding {
         this.theKey = theKey;
     }
 
+    public  boolean isString(){
+        return this.sentence.length() < 1;
+    }
+
+
 }
