@@ -45,6 +45,7 @@ public class Encoding {
                 if(c > 'z') c = c - 26;
             }
             encrypted.append((char) c);
+
         }
         return encrypted.toString();
     }
